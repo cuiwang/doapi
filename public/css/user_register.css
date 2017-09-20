@@ -1,0 +1,272 @@
+*, body {
+    font-family: 'PingFang SC', Helvetica, 'YouYuan', 'microsoft yahei', sans-serif;
+}
+
+body {
+    margin-bottom: 30px;
+}
+
+.form-control:focus {
+    border-color: #fff;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: normal;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: normal;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #09F;
+}
+
+.green {
+    color: #3C3;
+}
+
+.gray {
+    color: #999;
+}
+
+.form-horizontal .control-label {
+    padding-top: 0;
+    margin-bottom: 10px;
+}
+
+.form-horizontal.templatemo-payment-form .radio.templatemo-no-padding-top {
+    padding-top: 0;
+}
+
+.control-wrapper {
+    position: relative;
+    padding-left: 40px;
+}
+
+.control-wrapper label {
+   line-height: 40px;
+}
+.control-wrapper input {
+   height: 50px;
+}
+.control-wrapper label.fa-label {
+    position: absolute;
+    left: 4px;
+    top: 6px;
+}
+
+.form-group:last-child {
+    margin-bottom: 0;
+}
+
+
+.table {
+    margin-bottom: 0;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th,
+.table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    vertical-align: middle;
+}
+
+.templatemo-form-list-container {
+    max-width: 600px;
+}
+
+.templatemo-input-icon-container {
+    position: relative;
+}
+
+.templatemo-input-icon-container .fa {
+    color: gray;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.templatemo-input-icon-container input,
+.templatemo-input-icon-container textarea {
+    padding-left: 30px;
+}
+
+.templatemo-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.base-bg-gray {
+    background-color: #eee;
+}
+
+.base-bg-gray h1 {
+    color: #868686;
+}
+
+.templatemo-bg-image-1, .templatemo-bg-image-2 {
+    background-size: cover;
+}
+
+.font-size-small {
+    font-size: 0.8em;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group a {
+    line-height: 34px;
+}
+
+.fa {
+    font-size: 16px;
+}
+
+.fa.login-with {
+    font-size: 80px;
+    margin: 0 5px;
+}
+
+.fa-medium {
+    font-size: 20px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/*-------------------------------------
+2. login-form-1
+---------------------------------------*/
+.templatemo-login-form-1 {
+    max-width: 500px;
+}
+
+.templatemo-login-form-1 a {
+    color: gray;
+}
+
+.templatemo-login-form-1 a:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.templatemo-create-new {
+    color: #868686;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.templatemo-create-new:hover {
+    color: #138892;
+    text-decoration: none;
+}
+
+/* START NAVIGATION */
+.sticky-navigation {
+    opacity: 0;
+}
+
+.navbar-default {
+    background: #fff;
+    border: none;
+    -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+    box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #212227;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    padding: 10px 0 0 12px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #202020;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 45px;
+    letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #ec7063;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ec7063;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #868686;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+    padding-top: 10px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: #ec7063;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent
+}
+
+/* END NAVIGATION */
+
+#login {
+    padding-top: 30px;
+}
+
+.user-create-new {
+    color: #868686;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.user-create-new:hover {
+    color: #ec7063;
+    text-decoration: none;
+}
+
+#register_btn {
+    width: 300px;
+    background-color: #f3715c;
+    border-color: #f3715c;
+}
+
+.text-center {
+    color: #999;
+}
